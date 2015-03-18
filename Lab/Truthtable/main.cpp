@@ -30,14 +30,23 @@ int main(int argc, char** argv) {
     
     //Output the first row of the table
     x=true; y=true;
+    
     cout<<(x?'T':'F')<<" ";
     cout<<(y?'T':'F')<<"  ";
     cout<<(!x?'T':'F')<<"  ";
     cout<<(!y?'T':'F')<<"   ";
     cout<<(x&&y?'T':'F')<<"    ";
     cout<<(x||y?'T':'F')<<" ";
+    cout<<(x^y?'T':'F')<<" ";
+    cout<<(x^y^y?'T':'F')<<" ";
+    cout<<(x^y^x?'T':'F')<<" ";
+    cout<<(x&&y? 'T':'F')<<" ";
+    cout<<(!x||!y?'T':'F')<<" ";
+    cout<<(!(x||y)?'T':'F')<<" ";
+    cout<<(!x&&!y?'T':'F')<<" ";
     cout<<endl;
     //Output the second row of the table
+    
     y=false;
     cout<<(x?'T':'F')<<" ";
     cout<<(y?'T':'F')<<"  ";
@@ -45,6 +54,48 @@ int main(int argc, char** argv) {
     cout<<(!y?'T':'F')<<"   ";
     cout<<(x&&y?'T':'F')<<"    ";
     cout<<(x||y?'T':'F')<<" ";
+    cout<<(x^y?'T':'F')<<" ";
+    cout<<(x^y^y?'T':'F')<<" ";
+    cout<<(x^y^x?'T':'F')<<" ";
+    cout<<(x&&y? 'T':'F')<<" ";
+    cout<<(!x||!y?'T':'F')<<" ";
+    cout<<(!(x||y)?'T':'F')<<" ";
+    cout<<(!x&&!y?'T':'F')<<" ";
+    cout<<endl;
+    
+    //Output the third row of the table
+    x=false; y=true;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"    ";
+    cout<<(x||y?'T':'F')<<" ";
+    cout<<(x^y?'T':'F')<<" ";
+    cout<<(x^y^y?'T':'F')<<" ";
+    cout<<(x^y^x?'T':'F')<<" ";
+    cout<<(x&&y? 'T':'F')<<" ";
+    cout<<(!x||!y?'T':'F')<<" ";
+    cout<<(!(x||y)?'T':'F')<<" ";
+    cout<<(!x&&!y?'T':'F')<<" ";
+    cout<<endl;
+    
+    //output 4th row
+    
+    x=false; y=false;
+    cout<<(x?'T':'F')<<" ";
+    cout<<(y?'T':'F')<<"  ";
+    cout<<(!x?'T':'F')<<"  ";
+    cout<<(!y?'T':'F')<<"   ";
+    cout<<(x&&y?'T':'F')<<"    ";
+    cout<<(x||y?'T':'F')<<" ";
+    cout<<(x^y?'T':'F')<<" ";
+    cout<<(x^y^y?'T':'F')<<" ";
+    cout<<(x^y^x?'T':'F')<<" ";
+    cout<<(x&&y? 'T':'F')<<" ";
+    cout<<(!x||!y?'T':'F')<<" ";
+    cout<<(!(x||y)?'T':'F')<<" ";
+    cout<<(!x&&!y?'T':'F')<<" ";
     cout<<endl;
     //Exit stage right!
     
