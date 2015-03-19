@@ -25,23 +25,23 @@ int main(int argc, char**argv) {
     
     string month1,month2,month3;
  
-    float mnRain1,mnRain2,mnRain3,inch1,inch2,inch3;
+    float inch1,inch2,inch3;
     
     float average,inches;
     
-    cout<< "What is the first month of rainfall ?" <<month1<< endl;
+    cout<< "What is the first month of rainfall ?"<< endl;
     cin>>month1;
-    cout<< "How many inches of rain fell that month " << mnRain1<< endl;
+    cout<< "How many inches of rain fell that month ? " << endl;
     cin>> inch1;
     
-    cout<<"What is the second month of rainfall ?" <<  month2<< endl;
+    cout<<"What is the second month of rainfall ?" << endl;
     cin>>month2;
-    cout<< "How many inches of rain fell that month  ?" << mnRain2<< endl;
+    cout<< "How many inches of rain fell that month  ?"<< endl;
     cin>>inch2;
     
-    cout<< "What is the third month of rainfall ?" << month3<<endl;
+    cout<< "What is the third month of rainfall ?"<<endl;
     cin>>month3;
-    cout<< "How many inches of rain fell that month  ?" << mnRain3<< endl;
+    cout<< "How many inches of rain fell that month  ?"<< endl;
     cin>>inch3;
     
     average=(inch1+inch2+inch3)/3;
@@ -55,4 +55,3 @@ int main(int argc, char**argv) {
     
     return 0;
 }
-
