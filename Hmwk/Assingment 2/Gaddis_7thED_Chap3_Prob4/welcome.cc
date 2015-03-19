@@ -24,16 +24,14 @@ int main(int argc, char**argv) {
     // Declare variables
     
     string month1,month2,month3;
-    
-   
-    
+ 
     float mnRain1,mnRain2,mnRain3,inch1,inch2,inch3;
     
     float average,inches;
     
     cout<< "What is the first month of rainfall ?" <<month1<< endl;
     cin>>month1;
-    cout<< "How many inches of rain fell that month ?" << mnRain1<< endl;
+    cout<< "How many inches of rain fell that month " << mnRain1<< endl;
     cin>> inch1;
     
     cout<<"What is the second month of rainfall ?" <<  month2<< endl;
