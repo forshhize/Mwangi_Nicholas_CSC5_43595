@@ -32,8 +32,6 @@ int main(int argc, char**argv) {
      
     //Ask user to enter the number of coins
     
-  
-    
     cout << "Enter number of pennis " <<endl;
     cin>> pennies;
     
@@ -61,18 +59,6 @@ int main(int argc, char**argv) {
         cout<< "The amount is more than a dollar." <<endl;
     
     
-    
-        
-        
-    
-    
-    
-    
-    
-    
-    
-    
-   
     
     return 0;
 }
