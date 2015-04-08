@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Nicholas Mwangi
  * Created on April 4 , 2015, 9:54 AM
- *      Purpose: Change for a dollar game
+ *      Purpose: Software sales
  */
 
 //System Libraries
@@ -63,7 +63,7 @@ int main(int argc, char**argv) {
         cout<< " The total cost will have a 50% discount and the total purchase will be $ " << tlCost4<< endl;
     }
     else 
-        cout<< "The number of units have to be 10 or more for discount." <<endl;
+        cout<< "The number of units have to be greater than 0 and more than 10 for discount." <<endl;
         
         
     
