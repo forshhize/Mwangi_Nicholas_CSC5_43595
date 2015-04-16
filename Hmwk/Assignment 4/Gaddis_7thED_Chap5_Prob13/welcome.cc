@@ -28,6 +28,9 @@ int main(int argc, char**argv) {
     
     
     small=large=number;
+    
+    cout<<"Enter a series of numbers"<<endl;
+    cin>>number;
    
     
     while (number != -99)
