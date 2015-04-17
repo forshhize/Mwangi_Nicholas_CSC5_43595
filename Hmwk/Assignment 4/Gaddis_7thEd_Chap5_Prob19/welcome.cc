@@ -27,22 +27,27 @@ int main(int argc, char**argv) {
     
     float budget,expense;
     float total=0; //accumaltor to keep a running total
+    int num =1;
     
     //inputting budget
-    
-    cout<< "Enter what you have budgeted for the month:";
+    cout<< "Enter what you have budgeted for the month:" << endl;
     cin>>budget;
     
-    cout<<"Enter all expenses:" ;
-     cin >>expense;
+    cout<< "Enter all your expenses and when done enter a -1 to indicate "
+                "finished."<<endl;
     
     // utilize a do-while since its a post test to see how much is spent first
     do
-    { 
-     
-        total=total + expense;
+    {
         
-    }while (expense=0);
+    cout<<"Enter expense "<< num <<endl;
+    cin >> expense;
+    num++;
+     
+        total+=expense;
+      
+    }
+    while (expense!= -1);
     
     if (total<=budget)
     
