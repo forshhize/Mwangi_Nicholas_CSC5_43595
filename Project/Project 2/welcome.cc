@@ -66,6 +66,8 @@ int main()
 		// Get player's numbers
         do
         {
+            // 1st section is a guess between 1 and 10
+            
             cout << "Guess your number to bet between 1 to 10 :";
             cin >> guess;
             if(guess <= 0 || guess > 10)
@@ -127,12 +129,13 @@ int main()
 		// Get player's numbers
         do
         {
-            cout << "Guess your number to bet between 1 to 10 :";
+            // changing the be to between 1 to 5
+            cout << "Guess your number to bet between 1 to 5 :"; 
             cin >> guess;
-            if(guess <= 0 || guess > 10)
+            if(guess <= 0 || guess > 5)
                 cout << "Please check the number!! should be between 1 to 10\n"
                     <<"\nRe-enter data\n ";
-        }while(guess <= 0 || guess > 10);
+        }while(guess <= 0 || guess > 5);
  
         dice = rand()%10 + 1; // Will hold the randomly generated integer between 1 and 10
     
@@ -187,7 +190,9 @@ int main()
 		// Get player's numbers
         do
         {
-            cout << "Guess your number to bet between 1 to 10 :";
+            //changing the bet to between 1 to 3
+            
+            cout << "Guess your number to bet between 1 to 3 :";
             cin >> guess;
             if(guess <= 0 || guess > 10)
                 cout << "Please check the number!! should be between 1 to 10\n"
