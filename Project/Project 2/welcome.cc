@@ -141,8 +141,8 @@ int main()
     
         if(dice == guess)
         {
-            cout << "\n\nGood Luck!! You won Rs." << betAmnt * 10;
-            amount = amount + betAmnt * 10;
+            cout << "\n\nGood Luck!! You won Rs." << betAmnt * 15;
+            amount = amount + betAmnt * 15;
         }
         else
         {
@@ -194,7 +194,7 @@ int main()
             
             cout << "Guess your number to bet between 1 to 3 :";
             cin >> guess;
-            if(guess <= 0 || guess > 10)
+            if(guess <= 0 || guess > 3)
                 cout << "Please check the number!! should be between 1 to 10\n"
                     <<"\nRe-enter data\n ";
         }while(guess <= 0 || guess > 10);
@@ -203,8 +203,8 @@ int main()
     
         if(dice == guess)
         {
-            cout << "\n\nGood Luck!! You won Rs." << betAmnt * 10;
-            amount = amount + betAmnt * 10;
+            cout << "\n\nGood Luck!! You won Rs." << betAmnt * 20;
+            amount = amount + betAmnt * 20;
         }
         else
         {
