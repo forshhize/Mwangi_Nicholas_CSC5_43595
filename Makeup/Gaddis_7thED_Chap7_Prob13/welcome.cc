@@ -1,15 +1,18 @@
+
+
+
 /*
  * File:   main.cpp
  * Author: Nicholas Mwangi
  * Created on April 14 2015, 10;17 AM
  * Purpose: Lottery Application
  */
-
 //System Libraries
 
-#include <iostream>//I/O standard
-#include <iomanip>
-#include <string>
+#include <iostream>
+#include <string> // Needed to use strings
+#include <cstdlib> // Needed to use random numbers
+#include <ctime>
 
 
 using namespace std;
@@ -19,8 +22,6 @@ using namespace std;
 //Global Constants
 
 //Function Prototypes
-
-
 
 //Execution Begins Here!
  
@@ -45,15 +46,29 @@ int main(int argc, char**argv) {
     for(int i=0;i<5; i++)
     {
         cin>>player[i];
+        
+        if(player [i]>9||player[i]<0)
+        {
+            cout<<"Invalid value Re-Enter";
+            cin>>player[i];
     }
 }
 //display lottery number
 
- cout<<"Lottery number"
+ cout<< "Lottery number " << endl;
 
  for(int i=0;i<5; i++)
     
     cout<<winDits[i]<<"";
+ 
+ cout<<""
+         "Matched digits:";
+ for(int i=0;i<5;i++)
+ {
+     if(winDits[i]==player[i])
+         
+     {
+         cout<<winDits[i]<<"";
  
  count++;
  }
@@ -63,9 +78,9 @@ int main(int argc, char**argv) {
      cout<<"No Matches!!"<<endl;
  else
      cout<<count<<"digits matched"<<endl;
+ }
  
 
 
 
-    return 0;
-}
+    
